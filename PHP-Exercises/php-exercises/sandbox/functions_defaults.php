@@ -18,6 +18,7 @@
       echo paint("bedroom", null);
       echo paint("bedroom");
       echo paint("blue");
+      echo paint("classroom", "beige");
     
     ?>
   </body>
