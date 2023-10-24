@@ -30,7 +30,7 @@
     <?php
       // PHP will convert a string to an integer
       // but it is sloppy programming
-      echo 1 + "2 houses";
+      echo 1 + "2";
     ?>
   </body>
 </html>
