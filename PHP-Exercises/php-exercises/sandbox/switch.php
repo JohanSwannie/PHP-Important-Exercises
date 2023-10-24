@@ -22,8 +22,11 @@
         case 3:
           echo "a equals 3<br />";
           break;
+        case 4:
+          echo "a equals 4<br />";
+          break;
         default:
-          echo "a is not 0, 1, 2, or 3<br />";
+          echo "a is not 0, 1, 2, 3, or 4<br />";
           break;
       }
     
