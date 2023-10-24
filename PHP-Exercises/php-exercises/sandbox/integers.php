@@ -12,12 +12,12 @@
     ?>
     Basic Math: <?php echo ((1 + 2 + $var1) * $var2) / 2 - 5; ?><br />
     <br />
-    Absolute value:   <?php echo abs(0 - 300);   ?><br />
-    Exponential:       <?php echo pow(2,8);       ?><br />
-    Square root:       <?php echo sqrt(100);     ?><br />
-    Modulo:           <?php echo fmod(20,7);     ?><br />
-    Random:           <?php echo rand();         ?><br />
-    Random (min,max): <?php echo rand(1,10);     ?><br />
+    Get Absolute value:   <?php echo abs(0 - 300);   ?><br />
+    Get Exponential:       <?php echo pow(2,8);       ?><br />
+    Get Square root:       <?php echo sqrt(100);     ?><br />
+    Get Modulus:           <?php echo fmod(20,7);     ?><br />
+    Get Random:           <?php echo rand();         ?><br />
+    Get Random (min,max): <?php echo rand(1,10);     ?><br />
     <br />
     += : <?php $var2 += 4; echo $var2; ?><br />
     -= : <?php $var2 -= 4; echo $var2; ?><br />
