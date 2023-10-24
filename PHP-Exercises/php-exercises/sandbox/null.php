@@ -10,14 +10,17 @@
     <?php
       $var1 = null;
       $var2 = "";
+      $var4 = " ";
     ?>
     var1 null? <?php echo is_null($var1); ?><br />
     var2 null? <?php echo is_null($var2); ?><br />
     var3 null? <?php echo is_null($var3); ?><br />
+    var3 null? <?php echo is_null($var4); ?><br />
     <br />
     var1 is set? <?php echo isset($var1); ?><br />
     var2 is set? <?php echo isset($var2); ?><br />
     var3 is set? <?php echo isset($var3); ?><br />
+    var3 is set? <?php echo isset($var4); ?><br />
     <br />
     
     <?php // empty: "", null, 0, 0.0, "0", false, array() ?>
@@ -26,6 +29,7 @@
     var1 empty? <?php echo empty($var1); ?><br />
     var2 empty? <?php echo empty($var2); ?><br />
     var3 empty? <?php echo empty($var3); ?><br />
+    var3 empty? <?php echo empty($var4); ?><br />
     
   </body>
 </html>
