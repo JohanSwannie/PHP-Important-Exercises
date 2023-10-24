@@ -22,7 +22,6 @@
       list($add_result, $subt_result) = add_subt(20,7);
       echo "Add: " . $add_result . "<br />";
       echo "Subt: " . $subt_result . "<br />";
-
     ?>
     
   </body>
